@@ -1,5 +1,5 @@
 # Cotton Plant Disease Classification Web Application :herb:
-This repository is about an end to end implemetation of deep learning cotton plant disease classification web application using flask. 
+This repository is about an end to end implementation of deep learning cotton plant disease classification web application using flask. 
 
 ## Dataset
 The dataset is downloaded from [Kaggle](https://www.kaggle.com/janmejaybhoi/cotton-disease-dataset). and total size is 152 MB. The dataset contains 3 folders with 1951 train images, 106 test images and 253 validation images. Each folder is divided into four classes: diseased cotton plant (Fusarium Wilt), diseased cotton leaf (Leaf Curl Disease), fresh cotton plant (Healthy Plant) and fresh cotton leaf (Healthy Leaf). Each image has a size of 694x694 pixels in JPG format.
