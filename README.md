@@ -27,5 +27,41 @@ Pretrained DenseNet121 model on ImageNet dataset is used. With the help of trans
 - To run Flask app, run [app.py](https://github.com/myatmyintzuthin/Cotton-Plant-Disease-Classification-Web-Application/blob/main/app.py).
 - Make sure that you did not change any folder name in this repo.
 
+## Cmds to run file
+- Installing dependencies
+```
+pip install -r requirements.txt
+```
+
+- Model Training  
+```
+densenet121cottondisease.ipynb
+```
+
+- Inference
+
+Model weight available at -  [DenseNet121.h5](https://github.com/Sakshi053/Cotton-Plant-Disease-Classification-Web-Application/blob/master/DenseNet121.h5) and store inside `/model` folder.
+
+To run Flask, use:
+```
+python app.py
+```
+
+## Docker cmds
+To build docker image, run:
+```
+docker build -t cotton .
+```
+
+Run docker image, using:
+```
+docker run --name cotton-app cotton
+``` 
+
+Stop docker, using:
+```
+docker stop cotton-app
+```
+
 ## Credits
 Thanks to my teammates [Myat Myint Zu Thin](https://github.com/myatmyintzuthin) and [Prachi Gupta](https://github.com/Prachigupta0305)
